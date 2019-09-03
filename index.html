@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	
+
+	<title>Test</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+    <link rel="stylesheet" href="css/normalize.css">
+	<!-- <link rel="stylesheet" href="css/animate.css"> -->
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+	<section class="user-form">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1 class="main-title">Данные пользователя:</h1>
+				</div>
+			</div>
+		</div>
+		<form action="" class="user-data">
+			<fieldset class="user-data__fieldset" id="user-data" disabled>
+				<div class="container">
+					<div class="row mb-3">
+						<div class="col-md-4">
+							<label for="name" class="user-data__label">Имя</label>
+							<input type="text" class="user-data__info user-data__name" name="name" id="name" placeholder="Александр" required>
+						</div>
+						<div class="col-md-4">
+							<label for="name" class="user-data__label">Отчество</label>
+							<input type="text" class="user-data__info user-data__patr" name="patr" id="patr" placeholder="Сергеевич" required>
+						</div>
+						<div class="col-md-4">
+							<label for="name" class="user-data__label">Фамилия</label>
+							<input type="text" class="user-data__info user-data__surname" name="surname" id="surname" placeholder="Пушкин" required>
+						</div>	
+					</div>
+				</div>
+				<div class="container">
+					<div class="row mb-3">
+						<div class="col-md-6">
+							<label for="name" class="user-data__label">Телефон</label>
+							<input type="tel" class="user-data__info user-data__phone" name="phone" id="phone" placeholder="+79033713535" minlength="11" maxlength="11" required>
+						</div>	
+						<div class="col-md-6">
+							<label for="name" class="user-data__label">Email</label>
+							<input type="email" class="user-data__info user-data__email" name="email" id="email" placeholder="pushkin@gmail.com" required>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row mb-3">
+						<div class="col">
+						<a class="user-data__edit-button button" id="edit">Редактировать</a>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col">
+						<a class="user-data__cancel-button button" id="cancel">Отмена</a>
+						</div>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+		
+	</section>	
+
+
+
+	
+	<script src="js/scripts.min.js"></script>
+	
+</body>
+</html>

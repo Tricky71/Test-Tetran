@@ -1,0 +1,28 @@
+.user-data__fieldset:disabled input {
+    padding: 0;
+    
+    border: none;
+    background-color: transparent;
+}
+
+.user-data input {
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 25px;
+}
+
+.user-data__label {
+    margin: 0;
+    padding: 0;
+    display: block;
+    color: gray;
+}
+
+.user-data a {
+    color: #fff;
+}
+
+.user-data .user-data__cancel-button {
+    display: none;
+}

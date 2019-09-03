@@ -1,0 +1,13 @@
+.button {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+      &:hover {
+          background-color: lightgreen;
+      }
+
+}
